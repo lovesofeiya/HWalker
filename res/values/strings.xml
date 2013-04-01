@@ -4,5 +4,10 @@
     <string name="app_name">StepCalculator</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="BTErrorMessage">Sorry your device does not support Bluetooth!</string>
+    <string name="btn_OK">OK</string>
+    <string name="BTDevicesDetected">DevicesDetected</string>
+    <string name="username">ksjfkjfa</string>
+    <string name="password">sdfsd</string>
 
 </resources>

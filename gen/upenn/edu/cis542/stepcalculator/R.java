@@ -27,10 +27,11 @@ public final class R {
         public static final int content_mile=0x7f070003;
         public static final int content_speed=0x7f070009;
         public static final int content_time=0x7f070001;
-        public static final int end=0x7f07000c;
+        public static final int end=0x7f07000d;
+        public static final int listView_bluetooth=0x7f07000b;
         public static final int mainButton=0x7f070004;
-        public static final int menu_settings=0x7f07000d;
-        public static final int song=0x7f07000b;
+        public static final int menu_settings=0x7f07000e;
+        public static final int song=0x7f07000c;
         public static final int title_calory=0x7f070005;
         public static final int title_speed=0x7f070006;
         public static final int title_time=0x7f070000;
@@ -42,9 +43,14 @@ public final class R {
         public static final int calculation_main=0x7f060000;
     }
     public static final class string {
+        public static final int BTDevicesDetected=0x7f040005;
+        public static final int BTErrorMessage=0x7f040003;
         public static final int app_name=0x7f040000;
+        public static final int btn_OK=0x7f040004;
         public static final int hello_world=0x7f040001;
         public static final int menu_settings=0x7f040002;
+        public static final int password=0x7f040007;
+        public static final int username=0x7f040006;
     }
     public static final class style {
         /** 

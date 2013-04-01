@@ -71,7 +71,8 @@
 	        android:layout_width="157dp"
 	        android:layout_height="159dp"
 	        android:layout_marginTop="20dp"
-	        android:background="@drawable/mainbutton_play1" />
+	        android:background="@drawable/mainbutton_play1"
+	        android:onClick="startBluetooth" />
 
     </LinearLayout>
     
@@ -153,25 +154,36 @@
      <LinearLayout
          android:layout_width="fill_parent"
          android:layout_height="fill_parent"
-         android:layout_gravity="fill_horizontal" >
-        
-	    <Button
-	        android:id="@+id/song"
-	        android:layout_width="107dp"
-	        android:layout_height="42dp"
-	        android:layout_gravity="bottom"
-	        android:layout_marginLeft="40dp"
-	        android:layout_marginBottom="5dp"
-	        android:background="@drawable/songplay1" />
-	    
-	    <Button
-	        android:id="@+id/end"
-	        android:layout_width="107dp"
-	        android:layout_height="42dp"
-	        android:layout_gravity="bottom|right"
-	        android:layout_marginLeft="50dp"
-	        android:layout_marginBottom="5dp"
-	        android:background="@drawable/endplay1" />
+         android:layout_gravity="fill_horizontal"
+         android:orientation="vertical" >
+
+         <ListView
+             android:id="@+id/listView_bluetooth"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1" >
+         </ListView>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" >
+
+             <Button
+                 android:id="@+id/song"
+                 android:layout_width="107dp"
+                 android:layout_height="42dp"
+                 android:layout_marginBottom="5dp"
+                 android:layout_marginLeft="40dp"
+                 android:background="@drawable/songplay1" />
+
+             <Button
+                 android:id="@+id/end"
+                 android:layout_width="107dp"
+                 android:layout_height="42dp"
+                 android:layout_marginBottom="5dp"
+                 android:layout_marginLeft="50dp"
+                 android:background="@drawable/endplay1" />
+         </LinearLayout>
 
     </LinearLayout>
 
