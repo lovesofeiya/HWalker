@@ -1,0 +1,191 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    tools:context=".CalculationMain" >
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp" >
+
+     <TextView
+	       android:id="@+id/title.time"
+	       android:layout_width="106dp"
+	       android:layout_height="wrap_content"
+	       android:text="TIME"
+	       android:textColor="#FFFFFF"
+	       android:textSize="40sp" />
+
+	   <TextView
+	       android:id="@+id/content.time"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="  53&apos;40&apos;&apos;34"
+	       android:textColor="#FFFFFF"
+	       android:textSize="40sp" />
+
+    </LinearLayout>
+   
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical" >
+	    
+        <TextView
+            android:id="@+id/content.distance"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_gravity="center|fill"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:text="3.10"
+            android:textColor="#FFFFFF"
+            android:textSize="120sp" />
+
+	      <TextView
+	          android:id="@+id/content.mile"
+	          android:layout_width="170dp"
+	          android:layout_height="148dp"
+	          android:layout_gravity="bottom|center_vertical"
+	          android:layout_marginBottom="3dp"
+	          android:text=" mi"
+	          android:textColor="#FFFFFF"
+	          android:textSize="80sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical" >
+
+	    <Button
+	        android:id="@+id/mainButton"
+	        android:layout_width="292dp"
+	        android:layout_height="291dp"
+	        android:layout_marginTop="20dp"
+	        android:background="@drawable/mainbutton_play1"
+	        android:onClick="startBluetooth" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp" >
+	    
+       <TextView
+           android:id="@+id/title.calory"
+           android:layout_width="316dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="top|center|fill"
+           android:shadowColor="#ffffff"
+           android:text="CALORY"
+           android:textColor="#f4c47a"
+           android:textSize="30sp"
+           android:textStyle="bold|italic" />
+
+       <TextView
+           android:id="@+id/title.speed"
+           android:layout_width="133dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="top|center|fill"
+           android:text="SPEED"
+           android:textColor="#f4c47a"
+           android:textSize="30sp"
+           android:textStyle="bold|italic" />
+
+    </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" >
+	    
+       <TextView
+           android:id="@+id/content.calory"
+           android:layout_width="wrap_content"
+           android:layout_height="57dp"
+           android:layout_gravity="top|center|fill"
+           android:layout_marginLeft="60dp"
+           android:text="105"
+           android:textColor="#FFFFFF"
+           android:textSize="50sp" />
+
+       <TextView
+           android:id="@+id/content.kj"
+           android:layout_width="96dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="bottom|center_vertical"
+           android:gravity="bottom"
+           android:text=" KJ"
+           android:textColor="#FFFFFF"
+           android:textSize="30sp" />
+       
+        <TextView
+            android:id="@+id/content.speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center|fill"
+            android:layout_marginLeft="140dp"
+            android:text="30"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+       <TextView
+           android:id="@+id/content.kmh"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="bottom|center_vertical"
+           android:gravity="bottom"
+           android:text=" KM/H"
+           android:textColor="#FFFFFF"
+           android:textSize="30sp" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom|fill_horizontal"
+         android:layout_marginTop="30dp"
+         android:orientation="vertical" >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="50dp" >
+
+             <Button
+                 android:id="@+id/song"
+                 android:layout_width="253dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+                 android:layout_marginLeft="40dp"
+                 android:background="@drawable/songplay1" />
+
+             <Button
+                 android:id="@+id/end"
+                 android:layout_width="107dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+                 android:layout_marginLeft="50dp"
+                 android:layout_weight="0.41"
+                 android:background="@drawable/endplay1" />
+
+         </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
